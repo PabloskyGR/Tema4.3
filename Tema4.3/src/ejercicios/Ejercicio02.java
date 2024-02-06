@@ -7,17 +7,31 @@ public class Ejercicio02 {
 
 	public static void main(String[] args) {
 
+		// Abrimos el scanner
 		Scanner sc = new Scanner(System.in);
 
+		// Creamos el array de tipo entero donde iremos guardando los valores de las
+		// notas
 		int notas[][] = new int[4][5];
 
+		// Variables que nos servirán como apoyo para guardar valores para adornar el
+		// código
 		int nota, aux;
 
+		// Variables donde guardaremos el máximo, mínimo y la media de las notas de cada
+		// alumno
 		int max = 0, min = 0, med = 0;
 
+		// Bucle for para recorrer las filas del array de las notas
 		for (int i = 0; i < 4; i++) {
+
+			// Inicializamos el auxiliar a 1 para llevar el orden de cada alumno
 			aux = 1;
+
+			// Vamos recorriendo cada columna de su respectiva fila con un bucle for
 			for (int j = 0; j < 5; j++) {
+
+				// Le pedimos al usuario la nota que quiere introducir
 				System.out.println("Dime la " + aux + "º" + " nota:");
 				nota = sc.nextInt();
 				if (nota > 10 || nota < 0) {
