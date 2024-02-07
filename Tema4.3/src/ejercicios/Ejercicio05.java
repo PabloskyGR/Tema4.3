@@ -2,7 +2,7 @@ package ejercicios;
 
 import java.util.Random;
 
-public class Ejericicio05 {
+public class Ejercicio05 {
 
 	public static int[][] rellenaArray() {
 		int[][] tabla = new int[4][5];

@@ -22,7 +22,7 @@ public class Ejercicio10 {
 				tablaFinal = new int[tablaInicio.length][tablaInicio.length];
 
 				for (int i = 0; i < tablaInicio.length; i++) {
-					for (int j = 0; j < tablaInicio[0].length; i++) {
+					for (int j = 0; j < tablaInicio[0].length; j++) {
 						tablaFinal[j][tablaInicio.length - i - 1] = tablaInicio[i][j];
 
 					}
